@@ -1,1 +1,10 @@
-[]
+- table:
+    schema: public
+    name: users
+  configuration:
+    custom_root_fields: {}
+    custom_column_names:
+      first_name: firstName
+      updated_at: updatedAt
+      last_name: lastName
+      created_at: createdAt
